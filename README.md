@@ -3,7 +3,7 @@
 ![](https://github.com/whkelvin/MyUbuntuSetUp/blob/master/Pictures/ubuntu.png)
 ![](https://github.com/whkelvin/MyUbuntuSetUp/blob/master/Pictures/ubuntu.gif)
 
-<a name="hello-world"></a>
+<a name="intro"></a>
 # 簡介
 各位看到上面兩張圖就手癢的同學你們好！我絕對不會和你們說我在Dcard上發文發現有了一個小粉絲後, 就迫不及待加興高采烈的跑來寫一篇新手+懶人向教學文, 順便介紹一下我的set up。那就廢話不多說先上TOC囉。
 
@@ -28,8 +28,9 @@
 - [License](#license)
 
 
-<a name="hello-world"></a>
+<a name="requirement"></a>
 # 規格 Requirement
+
 <a name="operating-system"></a>
 ## 作業系統 Operating System
 [Ubuntu 20.04.1 LTS](https://ubuntu.com/download/desktop) (舊一點的應該也沒問題, 只要是Linux基本上都可以[Android 別鬧], 這篇會以ubuntu為主, 其他Distro請到樓下的官網自己爬文謝謝)
