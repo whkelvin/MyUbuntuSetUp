@@ -67,12 +67,15 @@ PNG 和 SVG檔都在[這裡](https://github.com/whkelvin/MyUbuntuSetUp/tree/mast
 
 為什麼要提到這麼這麼多細節呢？在Mac/Windows的世界裡你可能永遠也不需要知道視窗管理員是什麼。那是因為在Linux世界裡，很多的大神都不用DE, 沒錯，在登入的時候你可以選擇要使用桌面環境或是只要用純粹的視窗管理員。有些視窗管理員會提供預設的簡單狀態列，不過大部分的都是走什麼都沒有的極簡風格，登入之後看到的就只有你的背景圖，滑鼠基本上是廢了，沒有東西給你按。這樣的好處呢就是你愛加什麼就加什麼，全部都由你決定。當然，不建議新手這樣搞，以後寫一篇文專門跟大家解釋到底~~哪個吃飽太閒的瘋子會這樣弄~~。
 
-<a name="gtk-theme"></a>
-## GTK Theme
-coming soon...
-
 <a name="gnome"></a>
 ## Gnome
+### Application Theme
+這是預設的主題:
+![](https://github.com/whkelvin/MyUbuntuSetUp/blob/master/Pictures/default_app.png)
+這是改完之後的樣子:
+![](https://github.com/whkelvin/MyUbuntuSetUp/blob/master/Pictures/nordic_app.png)
+
+
 
 <a name="i3"></a>
 ## i3
@@ -145,4 +148,5 @@ coming soon...
 # License
 [WTFPL – Do What the Fuck You Want to Public License](http://www.wtfpl.net/)
 隨你怎麼改license, 不用謝。
+
 
