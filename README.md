@@ -82,12 +82,19 @@ PNG 和 SVG檔都在[這裡](https://github.com/whkelvin/MyUbuntuSetUp/tree/mast
 gnome-tweaks是一個提供預設的設定裡沒有的選項的設定程式，我們會用他來更換主題。
 
 將universe repo加到apt裡：
+
 ``` sudo add-apt-repository universe ```
+
 更新apt裡的package:
+
 ``` sudo apt update ```
+
 更新系統裡的軟體:
+
 ``` sudo apt upgrade ```
-安裝gnome-tweaks
+
+安裝gnome-tweaks:
+
 ``` sudo apt install gnome-tweaks ```
 
 \* sudo 是一個讓你在terminal暫時提高權限的指令。
