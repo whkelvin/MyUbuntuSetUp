@@ -15,9 +15,10 @@
   * [Nord Theme](#nord-theme)
 - [桌面背景 Wallpaper](#wallpaper)
 - [桌面環境/視窗管理員 Desktop Environment/Window Manager](#desktop-environment-window-manager)
+  * [Gnome Theme](#gnome)
+      * [Application Theme](#application-theme)
   * [i3](#i3)
   * [polybar](#polybar)
-  * [GTK Theme](#gtk-theme)
 - [虛擬終端 Terminal Emulator](#terminal-emulator)
   * [Alacritty](#alacritty)
   * [Fish Shell](#fish-shell)
@@ -68,14 +69,38 @@ PNG 和 SVG檔都在[這裡](https://github.com/whkelvin/MyUbuntuSetUp/tree/mast
 為什麼要提到這麼這麼多細節呢？在Mac/Windows的世界裡你可能永遠也不需要知道視窗管理員是什麼。那是因為在Linux世界裡，很多的大神都不用DE, 沒錯，在登入的時候你可以選擇要使用桌面環境或是只要用純粹的視窗管理員。有些視窗管理員會提供預設的簡單狀態列，不過大部分的都是走什麼都沒有的極簡風格，登入之後看到的就只有你的背景圖，滑鼠基本上是廢了，沒有東西給你按。這樣的好處呢就是你愛加什麼就加什麼，全部都由你決定。當然，不建議新手這樣搞，以後寫一篇文專門跟大家解釋到底~~哪個吃飽太閒的瘋子會這樣弄~~。
 
 <a name="gnome"></a>
-## Gnome
+## Gnome Theme
+
+<a name="application-theme"></a>
 ### Application Theme
 這是預設的主題:
 ![](https://github.com/whkelvin/MyUbuntuSetUp/blob/master/Pictures/default_app.png)
 這是改完之後的樣子:
 ![](https://github.com/whkelvin/MyUbuntuSetUp/blob/master/Pictures/nordic_app.png)
 
+首先我們要安裝gnome-tweaks:
+gnome-tweaks是一個提供預設的設定裡沒有的選項的設定程式，我們會用他來更換主題。
 
+將universe repo加到apt裡：
+``` sudo add-apt-repository universe ```
+更新apt裡的package:
+``` sudo apt update ```
+更新系統裡的軟體:
+``` sudo apt upgrade ```
+安裝gnome-tweaks
+``` sudo apt install gnome-tweaks ```
+
+\* sudo 是一個讓你在terminal暫時提高權限的指令。
+
+![](https://github.com/whkelvin/MyUbuntuSetUp/blob/master/Pictures/tweaks.png)
+打開tweaks之後可以到Appearance->Theme->Application選擇你喜歡的主題。
+
+如果想要nord的顏色的話, 可以到[這裡](https://www.gnome-look.org/p/1267246/)下載（我選nordic-darker, 你可以選你喜歡的）。下載下來的檔案解壓縮之後放到`~/.themes` 裡。注意:`.themes`這個資料夾不存在的話你會需要建一個新的資料夾,而所有檔名是`.`開始的都會被藏起來。在Files裡記得顯示隱藏的檔案。
+![](https://github.com/whkelvin/MyUbuntuSetUp/blob/master/Pictures/show_hidden.png)
+我的`~/.themes`長這樣。
+![](https://github.com/whkelvin/MyUbuntuSetUp/blob/master/Pictures/theme_folder.png)
+然後從重新打開tweaks->Appearance->Theme->Application就應該可以看到新的主題啦。
+![](https://github.com/whkelvin/MyUbuntuSetUp/blob/master/Pictures/tweak_nordic.png)
 
 <a name="i3"></a>
 ## i3
