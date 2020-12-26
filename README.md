@@ -123,7 +123,7 @@ gnome-tweaks是一個提供預設的設定裡沒有的選項的設定程式，�
 
 ### Dash to Dock
 最後再來分享個小撇步，可以讓你把原本在左邊的App Bar移到下面，然後縮小一點。
-![](https://github.com/whkelvin/MyUbuntuSetUp/blob/master/Pictures/dash-to-dock.png)
+![](https://github.com/whkelvin/MyUbuntuSetUp/blob/master/Pictures/dash_to_dock.png)
 
 <a name="i3"></a>
 ## i3
