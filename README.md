@@ -93,24 +93,37 @@ gnome-tweaks是一個提供預設的設定裡沒有的選項的設定程式，�
 安裝gnome-tweaks
 ``` sudo apt install gnome-tweaks ```
 
-\* sudo 是一個讓你在terminal暫時提高權限的指令。
+- apt 是Ubuntu的package manager, 有點類似Google Play 或 App Store
+- sudo 是一個讓你在terminal暫時提高權限的指令。
 
 ![](https://github.com/whkelvin/MyUbuntuSetUp/blob/master/Pictures/tweaks.png)
-打開tweaks之後可以到Appearance->Theme->Application選擇你喜歡的主題。
+打開tweaks之後可以到Appearance->Themes->Application選擇你喜歡的主題。
 
-如果想要nord的顏色的話, 可以到[這裡](https://www.gnome-look.org/p/1267246/)下載（我選nordic-darker, 你可以選你喜歡的）。下載下來的檔案解壓縮之後放到`~/.themes` 裡。注意:`.themes`這個資料夾不存在的話你會需要建一個新的資料夾,而所有檔名是`.`開始的都會被藏起來。在Files裡記得顯示隱藏的檔案。
+如果想要nord的顏色的話, 可以到[這裡](https://www.gnome-look.org/p/1267246/)下載（我選nordic-darker, 你可以選你喜歡的）。下載下來的檔案解壓縮之後放到`~/.themes` 裡。
+
+**注意**
+- `.themes`這個資料夾不存在的話你會需要建一個新的資料夾,而所有檔名是`.`開始的都會被藏起來。在Files裡記得顯示隱藏的檔案。
+
 ![](https://github.com/whkelvin/MyUbuntuSetUp/blob/master/Pictures/show_hidden.png)
 我的`~/.themes`長這樣。
 ![](https://github.com/whkelvin/MyUbuntuSetUp/blob/master/Pictures/theme_folder.png)
-然後從重新打開tweaks->Appearance->Theme->Application就應該可以看到新的主題啦。
+然後從重新打開tweaks->Appearance->Themes->Application就應該可以看到新的主題啦。
 ![](https://github.com/whkelvin/MyUbuntuSietUp/blob/master/Pictures/tweak_nordic.png)
 
 ### Icon Theme
 ![](https://github.com/whkelvin/MyUbuntuSetUp/blob/master/Pictures/flat_icon.png)
 沒有錯，連App的Icon都可以改。我用的Icon Theme是[這個](https://www.opendesktop.org/p/1012431)
-我選的是05-Flat-Remix-Green-Dark。一樣把下載下來的檔案解壓縮放到`~/.icons`裡。注意:`.icons`這個資料夾不存在的話你會需要建一個新的資料夾,而所有檔名是`.`開始的都會被藏起來。在Files裡記得顯示隱藏的檔案。
+我選的是05-Flat-Remix-Green-Dark,注意左側App的icons還有檔案的圖片都不一樣了。一樣把下載下來的檔案解壓縮放到`~/.icons`裡。之後就可以在tweaks->Appearance->Themes->Icons裡面看到啦！
 
-\* 我解壓縮完的時候發現要把解出來的檔案夾裡的檔案夾貼到`~/.icons`才行。
+**注意:**
+
+- **`.icons`這個資料夾不存在的話你會需要建一個新的資料夾,而所有檔名是`.`開始的都會被藏起來。在Files裡記得顯示隱藏的檔案。**
+
+- **我解壓縮完的時候發現要把解出來的檔案夾裡的檔案夾貼到`~/.icons`才行。**
+
+### Dash to Dock
+最後再來分享個小撇步，可以讓你把原本在左邊的App Bar移到下面，然後縮小一點。
+![](https://github.com/whkelvin/MyUbuntuSetUp/blob/master/Pictures/dash-to-dock.png)
 
 <a name="i3"></a>
 ## i3
