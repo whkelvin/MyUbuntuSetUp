@@ -17,6 +17,8 @@
 - [桌面環境/視窗管理員 Desktop Environment/Window Manager](#desktop-environment-window-manager)
   * [Gnome Theme](#gnome)
       * [Application Theme](#application-theme)
+      * [Icon Theme](#icon-theme)
+      * [Dash To Dock](#dash-to-dock)
   * [i3](#i3)
   * [polybar](#polybar)
 - [虛擬終端 Terminal Emulator](#terminal-emulator)
@@ -112,6 +114,7 @@ gnome-tweaks是一個提供預設的設定裡沒有的選項的設定程式，�
 然後從重新打開tweaks->Appearance->Themes->Application就應該可以看到新的主題啦。
 ![](https://github.com/whkelvin/MyUbuntuSietUp/blob/master/Pictures/tweak_nordic.png)
 
+<a name="icon-theme"></a>
 ### Icon Theme
 ![](https://github.com/whkelvin/MyUbuntuSetUp/blob/master/Pictures/flat_icon.png)
 沒有錯，連App的Icon都可以改。我用的Icon Theme是[這個](https://www.opendesktop.org/p/1012431)
@@ -123,11 +126,10 @@ gnome-tweaks是一個提供預設的設定裡沒有的選項的設定程式，�
 
 - **我解壓縮完的時候發現要把解出來的檔案夾裡的檔案夾貼到`~/.icons`才行。**
 
+<a name="dash-to-dock"></a>
 ### Dash to Dock
 最後再來分享個小撇步，可以讓你把原本在左邊的App Bar移到下面，然後縮小一點。
 ![](https://github.com/whkelvin/MyUbuntuSetUp/blob/master/Pictures/dash-to-dock.png)
-
-TO BE CONTINUE...
 
 <a name="i3"></a>
 ## i3
