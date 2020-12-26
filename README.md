@@ -131,6 +131,8 @@ gnome-tweaks是一個提供預設的設定裡沒有的選項的設定程式，�
 最後再來分享個小撇步，可以讓你把原本在左邊的App Bar移到下面，然後縮小一點。
 ![](https://github.com/whkelvin/MyUbuntuSetUp/blob/master/Pictures/dash-to-dock.png)
 
+TO BE CONTINUE...
+
 <a name="i3"></a>
 ## i3
 coming soon...
