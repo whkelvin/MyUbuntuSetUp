@@ -14,11 +14,12 @@
 - [主題 Theme](#theme)
   * [Nord Theme](#nord-theme)
 - [桌面背景 Wallpaper](#wallpaper)
-- [桌面環境/視窗管理員 Desktop Environment/Window Manager](#desktop-environment-window-manager)
+- [桌面環境 Desktop Environment](#desktop-environment)
   * [Gnome Theme](#gnome)
       * [Application Theme](#application-theme)
       * [Icon Theme](#icon-theme)
       * [Dash To Dock](#dash-to-dock)
+- [視窗管理員 Window Manager](#wm)
   * [i3](#i3)
   * [polybar](#polybar)
 - [虛擬終端 Terminal Emulator](#terminal-emulator)
@@ -59,17 +60,15 @@ Mac & WSL - 有一些Terminal Emulator裡的程式是有支援的， 請到樓�
 
 PNG 和 SVG檔都在[這裡](https://github.com/whkelvin/MyUbuntuSetUp/tree/master/Pictures)， 如果賣出去拜託讓我抽個成我的學貸還不完QAQ
 
-<a name="desktop-environment-window-manager"></a>
-# 桌面環境/視窗管理員 Desktop Environment(DE)/Window Manager(WM)
+<a name="desktop-environment"></a>
+# 桌面環境 Desktop Environment
 熱騰騰剛裝好的Ubuntu20.04桌面長這樣。
 
 ![](https://github.com/whkelvin/MyUbuntuSetUp/blob/master/Pictures/default_desktop.png)
 
-~~這不是肯德基~~ 剛裝好的時候覺得預設的桌面蠻酷的，不過五分鐘後我就把能換的東西都換了.... Linux和Mac OS & Windows最大的不同的地方就在於看到不喜歡的東西全部通通都可以改，不想看到的東西也可以藏起來。你想要的話也能今天讓你的桌面還有視窗看起來像[Mac OS](https://itsfoss.com/make-ubuntu-look-like-macos/)，明天看起來像[Windows](https://www.makeuseof.com/tag/make-linux-look-like-windows/)，不過何必為難自己呢？ 既然都在看這篇了不如自己做出一個屬於你自己的獨一無二的桌面，讓坐你隔壁的帥哥妹子下巴都掉下來嘿嘿。
+~~這不是肯德基~~ 剛裝好的時候覺得預設的桌面蠻酷的，不過五分鐘後我就把能換的東西都換了.... Linux和Mac OS & Windows最大的不同的地方就在於看到不喜歡的東西全部通通都可以改，不想看到的東西也可以藏起來。你想要的話也能今天讓你的桌面還有視窗看起來像[Mac OS](https://itsfoss.com/make-ubuntu-look-like-macos/)，明天看起來像[Windows](https://www.makeuseof.com/tag/make-linux-look-like-windows/)，不過幹麻跟自己過不去？ 既然都在看這篇了不如自己做出一個屬於你自己的獨一無二的桌面，讓坐你隔壁的帥哥妹子下巴都掉下來嘿嘿。
 
-桌面環境是什麼呢？簡單的說他就是你開機之後會看到的UI。Ubuntu20.04預設的桌面環境是[Gnome](https://www.gnome.org/)， 上圖螢幕左邊的Apps還有上面的狀態列（中間有時間，旁邊還有一些音量按鈕的那個）都是Gnome DE(Desktop Environment)的一部分。還有像是視窗右上角的放大縮小按鈕樣式也都是由Gnome DE提供的，更準確的說視窗裡的按鈕是由Gnome DE裡面的視窗管理員(Window Manager)掌管的。視窗管裡員的工作就是幫你排版你的視窗，調整視窗大小還有顯示跟視窗相關的按鈕等等。
-
-為什麼要提到這麼這麼多細節呢？在Mac/Windows的世界裡你可能永遠也不需要知道視窗管理員是什麼。那是因為在Linux世界裡，很多的大神都不用DE， 沒錯，在登入的時候你可以選擇要使用桌面環境或是只要用純粹的視窗管理員。有些視窗管理員會提供預設的簡單狀態列，不過大部分的都是走什麼都沒有的極簡風格，登入之後看到的就只有你的背景圖，滑鼠基本上是廢了，沒有東西給你按。這樣的好處呢就是你愛加什麼就加什麼，全部都由你決定。當然，不建議新手這樣搞，以後寫一篇文專門跟大家解釋到底~~哪個吃飽太閒的瘋子會這樣弄~~。
+桌面環境是什麼呢？簡單的說他就是你開機之後會看到的UI。Ubuntu20.04預設的桌面環境是[Gnome](https://www.gnome.org/)， 上圖螢幕左邊的Apps還有上面的狀態列（中間有時間，旁邊還有一些音量按鈕的那個）都是Gnome DE(Desktop Environment)的一部分。當然，如果你不喜歡Gnome DE, Ubuntu還有很多不同的版本，每個版本都用不同的DE, 像是Kubuntu(KDE), Xubuntu(Xfce)等等。萬一你已經安裝了原味的Ubuntu也不用擔心，並不需要重新裝一個新的。可以直接在原味的Ubuntu裡裝不同的DE，然後在登入的時候就可以選要用哪一種口味啦。
 
 <a name="gnome"></a>
 ## Gnome Theme
@@ -118,7 +117,7 @@ gnome-tweaks是一個提供預設的設定裡沒有的選項的設定程式，�
 ### Icon Theme
 ![](https://github.com/whkelvin/MyUbuntuSetUp/blob/master/Pictures/flat_icon.png)
 沒有錯，連App的Icon都可以改。我用的Icon Theme是[這個](https://www.opendesktop.org/p/1012431)
-我選的是05-Flat-Remix-Green-Dark，注意左側App的icons還有檔案的圖片都不一樣了。一樣把下載下來的檔案解壓縮放到`~/.icons`裡。之後就可以在tweaks->Appearance->Themes->Icons裡面看到啦！
+我選的是05-Flat-Remix-Green-Dark，注意左側Apps的icons還有檔案的圖片都不一樣了。一樣把下載下來的檔案解壓縮放到`~/.icons`裡。之後就可以在tweaks->Appearance->Themes->Icons裡面看到啦！
 
 **注意:**
 
@@ -133,9 +132,17 @@ gnome-tweaks是一個提供預設的設定裡沒有的選項的設定程式，�
 
 TO BE CONTINUE...
 
+<a name="wm"></a>
+# 視窗管理員 Window Manager(WM)
+看到最上面的圖片可能會好奇為什麼我的視窗右上角的放大縮小按鈕全部都不見了，也沒有螢幕上方的狀態列或是App的選單。要怎麼關機都不知道。~~我絕對不會告訴你我到現在都還沒關過機~~
+
+因為我在登入的時候選擇的並不是桌面環境DE(Desktop Manager), 而是視窗管理員WM(Window Manager)。視窗管理員就像是超極簡簡簡風格的DE。更準確的說，每個桌面環境都有一個視窗管裡員。桌面環境和視窗管理員的關係大概像這樣->桌面環境 = 視窗管理員 + 狀態列 + App列表 + 其他有的沒的。而視窗管裡員的工作就是幫你排版你的視窗，調整視窗大小還有顯示跟視窗相關的按鈕等等。 
+
+視窗管理員當然也有很多種口味，有些視窗管理員會提供預設的簡單狀態列，不過也有很多的都是走什麼都沒有的極簡風格，登入之後看到的就只有背景圖，滑鼠基本上是廢了，按右鍵也沒有選單給你按，大部份的動作都要通過鍵盤來完成。~~到底哪個吃飽太閒的瘋子會這樣弄~~ 這樣的好處呢就是你愛加什麼就加什麼，全部都由你決定。傳說當你熟悉你的視窗管理員之後，你的工作速度就會接近光速，~~讓你有更多時間摸魚~~。當然，不建議新手這樣搞，欲速則不達，阿彌陀佛。
+
 <a name="i3"></a>
 ## i3
-coming soon...
+為什麼用i3?因為我愛美(台語)......
 
 <a name="polybar"></a>
 ### polybar
@@ -204,5 +211,6 @@ coming soon...
 # License
 [WTFPL – Do What the Fuck You Want to Public License](http://www.wtfpl.net/)
 隨你怎麼改license， 不用謝。
+
 
 
